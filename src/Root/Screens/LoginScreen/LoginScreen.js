@@ -29,7 +29,7 @@ class LoginScreen extends Component {
         axios.get(url)
             .then(res => {
                 this.setState({weather: res.data});
-                alert(JSON.stringify(res.data));
+
             })
             .catch(err => {
                 alert(err);
