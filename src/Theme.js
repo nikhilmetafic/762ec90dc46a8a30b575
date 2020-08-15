@@ -1,0 +1,25 @@
+export const color = {
+    _018CCA: "#018CCA",
+    _aed941: '#aed941',
+    _ffffff: '#ffffff',
+    _EC6BAE: '#EC6BAE',
+    _555555: '#555555',
+    _e8e8e8: '#e8e8e8',
+    _919191: '#919191',
+    _f2f2f2: '#f2f2f2',
+    _f3f3f3: '#f3f3f3',
+    _DDDDDD: '#DDDDDD',
+    _000000: '#000000',
+    _999999: '#999999',
+    _0F9DEC: '#0F9DEC',
+    _2B72CC: '#2B72CC',
+    _EB0000: '#EB0000',
+    _B0DC41: "#b0dc41",
+    _F4FFC6: "#f4ffc6",
+    _EFAA8A: "#efaa8a",
+    _BGColor: "#eef0f4",
+    primaryBlack: '#171717',
+    yellow:'#e6c300',
+    green:'#1bc504'
+};
+
