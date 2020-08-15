@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
-import {Button, Container, Content, Text} from 'native-base';
+import {Button, Container, Text} from 'native-base';
 import {Image, View} from 'react-native';
 import styles from './LoginScreenStyle';
 
