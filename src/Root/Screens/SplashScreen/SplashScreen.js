@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import {Container, Text, Input, Button, Content} from 'native-base';
-import {connect} from 'react-redux';
-import {FlatList, View, TouchableOpacity} from 'react-native';
+import {Button, Container, Content, Input, Text} from 'native-base';
+import {FlatList, TouchableOpacity} from 'react-native';
 
 const axios = require('axios');
 
