@@ -6,7 +6,7 @@ import {FlatList, View, TouchableOpacity} from 'react-native';
 const axios = require('axios');
 
 class SplashScreen extends Component {
-    BASE_URL = 'https://restcountries.eu/rest/v2/name/india';
+    BASE_URL = 'https://restcountries.eu/rest/v2/name/';
 
     constructor(props) {
         super(props);
@@ -17,7 +17,7 @@ class SplashScreen extends Component {
     }
 
     onSubmit = () => {
-        axios.get(this.BASE_URL)
+        axios.get(this.BASE_URL+this.state.country)
             .then(res => {
 
                 this.setState({countryList: res.data});
@@ -77,12 +77,4 @@ class SplashScreen extends Component {
 }
 
 
-const mapActionCreators = {};
-
-const mapStateToProps = state => {
-    return {};
-};
-export default connect(
-    mapStateToProps,
-    mapActionCreators,
-)(SplashScreen);
+export default SplashScreen;
